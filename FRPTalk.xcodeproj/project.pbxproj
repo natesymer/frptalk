@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		4311E1B61FB29C1300EDE1FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311E1B51FB29C1300EDE1FE /* AppDelegate.swift */; };
 		4311E1B81FB29C1300EDE1FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311E1B71FB29C1300EDE1FE /* ViewController.swift */; };
-		4311E1BB1FB29C1300EDE1FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4311E1B91FB29C1300EDE1FE /* Main.storyboard */; };
 		4311E1BD1FB29C1300EDE1FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4311E1BC1FB29C1300EDE1FE /* Assets.xcassets */; };
 		4311E1C01FB29C1300EDE1FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4311E1BE1FB29C1300EDE1FE /* LaunchScreen.storyboard */; };
 		4311E1CB1FB29C1300EDE1FE /* FRPTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311E1CA1FB29C1300EDE1FE /* FRPTalkTests.swift */; };
+		4311E1D61FB29C2800EDE1FE /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311E1D51FB29C2800EDE1FE /* Signal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		4311E1B21FB29C1300EDE1FE /* FRPTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRPTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4311E1B51FB29C1300EDE1FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4311E1B71FB29C1300EDE1FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4311E1BA1FB29C1300EDE1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4311E1BC1FB29C1300EDE1FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4311E1BF1FB29C1300EDE1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4311E1C11FB29C1300EDE1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4311E1C61FB29C1300EDE1FE /* FRPTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRPTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4311E1CA1FB29C1300EDE1FE /* FRPTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRPTalkTests.swift; sourceTree = "<group>"; };
 		4311E1CC1FB29C1300EDE1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4311E1D51FB29C2800EDE1FE /* Signal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			children = (
 				4311E1B51FB29C1300EDE1FE /* AppDelegate.swift */,
 				4311E1B71FB29C1300EDE1FE /* ViewController.swift */,
-				4311E1B91FB29C1300EDE1FE /* Main.storyboard */,
+				4311E1D51FB29C2800EDE1FE /* Signal.swift */,
 				4311E1BC1FB29C1300EDE1FE /* Assets.xcassets */,
 				4311E1BE1FB29C1300EDE1FE /* LaunchScreen.storyboard */,
 				4311E1C11FB29C1300EDE1FE /* Info.plist */,
@@ -181,7 +181,6 @@
 			files = (
 				4311E1C01FB29C1300EDE1FE /* LaunchScreen.storyboard in Resources */,
 				4311E1BD1FB29C1300EDE1FE /* Assets.xcassets in Resources */,
-				4311E1BB1FB29C1300EDE1FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4311E1B81FB29C1300EDE1FE /* ViewController.swift in Sources */,
+				4311E1D61FB29C2800EDE1FE /* Signal.swift in Sources */,
 				4311E1B61FB29C1300EDE1FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,14 +223,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4311E1B91FB29C1300EDE1FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4311E1BA1FB29C1300EDE1FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4311E1BE1FB29C1300EDE1FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
